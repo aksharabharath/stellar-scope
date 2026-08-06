@@ -252,7 +252,7 @@ tic_id,status,rows,error
 62941615,failed,0,Failed after retry
 337749805,success,26390,
 397026518,failed,0,Failed after retry
-376885007,success,0,
+376885007,failed,0,Empty light curve
 35062961,success,3521,
 380577004,failed,0,Failed after retry
 377170968,failed,0,Failed after retry
