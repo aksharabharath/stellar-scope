@@ -8,8 +8,10 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
+# Raw astronomy data
 data/raw/
+
+# Processed astronomy data
 data/processed/
 
 # Models
