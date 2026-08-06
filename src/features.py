@@ -40,14 +40,29 @@ def extract_variability_features(flux):
 
 def extract_period_features(time, flux):
     """
-    Detect dominant periodic behavior using
-    Lomb-Scargle periodogram.
+    Detect dominant stellar variability period
+    using Lomb-Scargle.
+
+    Restricts search away from cadence artifacts.
     """
+
+    # Search periods between 0.1 and 30 days
+    min_period = 0.1
+    max_period = 30
+
+
+    min_frequency = 1 / max_period
+    max_frequency = 1 / min_period
+
 
     frequency, power = LombScargle(
         time,
         flux
-    ).autopower()
+    ).autopower(
+        minimum_frequency=min_frequency,
+        maximum_frequency=max_frequency
+    )
+
 
     best_frequency = frequency[np.argmax(power)]
 
@@ -55,11 +70,11 @@ def extract_period_features(time, flux):
 
     period_power = np.max(power)
 
+
     return {
         "dominant_period": dominant_period,
         "period_power": period_power,
     }
-
 
 def count_events(mask, min_points=5):
     """
