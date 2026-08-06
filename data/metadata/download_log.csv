@@ -1,2 +1,6 @@
-tic_id,success
-25155310,True
+tic_id,status,rows,error
+62941112,failed,0,No light curve found
+952755262,failed,0,No light curve found
+376757328,failed,0,No light curve found
+82050170,success,14107,
+902586507,failed,0,No light curve found
