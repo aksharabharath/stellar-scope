@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+jupyter
+notebook
+tqdm
+
+astropy
+lightkurve
+astroquery
+
+torch
+shap
+hdbscan
+streamlit
