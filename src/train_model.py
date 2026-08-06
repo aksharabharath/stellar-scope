@@ -26,13 +26,20 @@ def load_data():
 
     print(f"Loaded {len(df)} stars")
 
-    X = df.drop(columns=["tic_id", "classification"])
+    X = df.drop(
+        columns=[
+            "tic_id",
+            "classification"
+        ]
+    )
+
     y = df["classification"]
 
     return X, y
 
 
 def train_models(X_train, X_test, y_train, y_test):
+
     models = {
         "random_forest": Pipeline(
             [
@@ -66,12 +73,18 @@ def train_models(X_train, X_test, y_train, y_test):
     results = {}
 
     for name, model in models.items():
+
         print()
         print(f"Training {name}...")
 
-        model.fit(X_train, y_train)
+        model.fit(
+            X_train,
+            y_train
+        )
 
-        predictions = model.predict(X_test)
+        predictions = model.predict(
+            X_test
+        )
 
         accuracy = accuracy_score(
             y_test,
@@ -88,7 +101,10 @@ def train_models(X_train, X_test, y_train, y_test):
             predictions
         )
 
-        print(f"Accuracy: {accuracy:.3f}")
+        print(
+            f"Accuracy: {accuracy:.3f}"
+        )
+
         print(report)
 
         results[name] = {
@@ -101,9 +117,17 @@ def train_models(X_train, X_test, y_train, y_test):
     return results
 
 
-def save_results(results):
-    os.makedirs(MODEL_DIR, exist_ok=True)
-    os.makedirs(RESULT_DIR, exist_ok=True)
+def save_results(results, encoder):
+
+    os.makedirs(
+        MODEL_DIR,
+        exist_ok=True
+    )
+
+    os.makedirs(
+        RESULT_DIR,
+        exist_ok=True
+    )
 
     best_name = max(
         results,
@@ -118,13 +142,21 @@ def save_results(results):
     )
 
     joblib.dump(
-        best_model,
+        {
+            "model": best_model,
+            "encoder": encoder
+        },
         model_path
     )
 
     print()
-    print(f"Best model: {best_name}")
-    print(f"Saved model: {model_path}")
+    print(
+        f"Best model: {best_name}"
+    )
+
+    print(
+        f"Saved model: {model_path}"
+    )
 
     with open(
         os.path.join(
@@ -133,11 +165,24 @@ def save_results(results):
         ),
         "w"
     ) as f:
+
         for name, result in results.items():
-            f.write(f"{name}\n")
-            f.write(f"Accuracy: {result['accuracy']:.4f}\n\n")
-            f.write(result["report"])
-            f.write("\n\n")
+
+            f.write(
+                f"{name}\n"
+            )
+
+            f.write(
+                f"Accuracy: {result['accuracy']:.4f}\n\n"
+            )
+
+            f.write(
+                result["report"]
+            )
+
+            f.write(
+                "\n\n"
+            )
 
     pd.DataFrame(
         results[best_name]["matrix"]
@@ -151,10 +196,19 @@ def save_results(results):
 
 
 def main():
+
     X, y = load_data()
 
     encoder = LabelEncoder()
-    y_encoded = encoder.fit_transform(y)
+
+    y_encoded = encoder.fit_transform(
+        y
+    )
+
+    os.makedirs(
+        MODEL_DIR,
+        exist_ok=True
+    )
 
     joblib.dump(
         encoder,
@@ -179,7 +233,10 @@ def main():
         y_test
     )
 
-    save_results(results)
+    save_results(
+        results,
+        encoder
+    )
 
 
 if __name__ == "__main__":
