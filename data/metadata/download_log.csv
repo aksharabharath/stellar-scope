@@ -1,6 +1,501 @@
 tic_id,status,rows,error
-62941112,failed,0,No light curve found
-952755262,failed,0,No light curve found
-376757328,failed,0,No light curve found
-82050170,success,14107,
-902586507,failed,0,No light curve found
+78311317,failed,0,Failed after retry
+366722716,failed,0,Failed after retry
+388925056,success,13457,
+366698806,success,14095,
+421193432,success,6704,
+376813729,success,22995,
+376876349,failed,0,Failed after retry
+149951788,success,13457,
+380546964,success,25759,
+325254297,success,17312,
+62941422,success,22502,
+78288454,failed,0,Failed after retry
+94894074,failed,0,Failed after retry
+56763829,success,13438,
+49455484,failed,0,Failed after retry
+56756514,failed,0,Failed after retry
+397027515,failed,0,Failed after retry
+397000521,failed,0,Failed after retry
+377230613,failed,0,Failed after retry
+366712422,failed,0,Failed after retry
+366722824,failed,0,Failed after retry
+62965351,failed,0,Failed after retry
+35028471,success,6704,
+349445884,failed,0,Failed after retry
+82051539,failed,0,Failed after retry
+277226351,failed,0,Failed after retry
+377189903,failed,0,Failed after retry
+363574007,success,13290,
+49464291,success,14131,
+96195643,success,3521,
+262811823,failed,0,Failed after retry
+301629076,failed,0,Failed after retry
+82055064,failed,0,Failed after retry
+130588420,failed,0,Failed after retry
+376813241,failed,0,Failed after retry
+397012498,failed,0,Failed after retry
+377263308,failed,0,Failed after retry
+96196277,failed,0,Failed after retry
+66628887,success,16639,
+147697618,success,16712,
+56760934,success,13411,
+149969467,failed,0,Failed after retry
+380542602,failed,0,Failed after retry
+397583548,failed,0,Failed after retry
+380546308,failed,0,Failed after retry
+66630432,failed,0,Failed after retry
+281907544,success,13918,
+421193943,failed,0,Failed after retry
+56813498,failed,0,Failed after retry
+66603888,success,13263,
+377171602,failed,0,Failed after retry
+380668425,success,17105,
+144213410,failed,0,Failed after retry
+376784892,success,26389,
+152702015,failed,0,Failed after retry
+49546669,failed,0,Failed after retry
+376757409,failed,0,Failed after retry
+173107765,success,25720,
+96194410,success,3521,
+49504164,success,25889,
+446671796,success,14115,
+130590386,failed,0,Failed after retry
+421192521,failed,0,Failed after retry
+56762947,success,13408,
+66670383,failed,0,Failed after retry
+56810374,success,13379,
+446677707,failed,0,Failed after retry
+380642367,failed,0,Failed after retry
+147683759,success,9949,
+376812733,success,6770,
+377249503,success,13457,
+96195354,success,6794,
+56758226,failed,0,Failed after retry
+349457075,failed,0,Failed after retry
+377262134,success,13457,
+81988495,failed,0,Failed after retry
+397486306,failed,0,Failed after retry
+396951237,failed,0,Failed after retry
+56719971,failed,0,Failed after retry
+144166706,failed,0,Failed after retry
+49418514,success,25743,
+149968305,failed,0,Failed after retry
+289513458,failed,0,Failed after retry
+96195395,success,3417,
+66667396,failed,0,Failed after retry
+397486480,failed,0,Failed after retry
+366722161,success,3508,
+421195580,failed,0,Failed after retry
+152829505,success,13371,
+376852649,success,6747,
+82070121,failed,0,Failed after retry
+396949632,failed,0,Failed after retry
+66630409,failed,0,Failed after retry
+35010589,success,3521,
+35064640,failed,0,Failed after retry
+376785216,failed,0,Failed after retry
+144306256,failed,0,Failed after retry
+377169533,success,17786,
+56812140,success,13353,
+35062897,success,3521,
+147677855,failed,0,Failed after retry
+82054568,success,22518,
+49430009,failed,0,Failed after retry
+152827208,success,13402,
+56812190,failed,0,Failed after retry
+446672152,failed,0,Failed after retry
+380165622,success,25876,
+380577544,failed,0,Failed after retry
+376787010,success,22998,
+366721703,failed,0,Failed after retry
+66673366,failed,0,Failed after retry
+35088534,success,3521,
+376797360,failed,0,Failed after retry
+56813546,failed,0,Failed after retry
+78290719,success,25877,
+183648631,failed,0,Failed after retry
+376865733,failed,0,Failed after retry
+130587794,success,13457,
+149951723,success,13457,
+421194235,failed,0,Failed after retry
+325253026,success,25831,
+144166518,failed,0,Failed after retry
+144248994,failed,0,Failed after retry
+376786234,failed,0,No light curve found
+144169840,failed,0,Failed after retry
+262934195,success,16721,
+396951334,failed,0,Failed after retry
+56812488,failed,0,Failed after retry
+49464709,failed,0,Failed after retry
+149968627,success,24561,
+144169629,failed,0,Failed after retry
+380577517,failed,0,Failed after retry
+66671321,failed,0,Failed after retry
+349458434,failed,0,Failed after retry
+421193239,success,6704,
+281909731,failed,0,Failed after retry
+96244132,success,13413,
+325252858,failed,0,Failed after retry
+35090587,failed,0,Failed after retry
+144213699,failed,0,Failed after retry
+49465233,failed,0,Failed after retry
+144121352,failed,0,Failed after retry
+62964949,success,25912,
+377172242,success,13457,
+380154551,failed,0,Failed after retry
+56810016,failed,0,Failed after retry
+412130750,success,17718,
+262782294,failed,0,Failed after retry
+35016665,success,6704,
+49505235,failed,0,Failed after retry
+173147143,failed,0,Failed after retry
+397051818,success,13447,
+78289496,success,1731,
+397056703,success,13457,
+397024581,failed,0,Failed after retry
+377263450,failed,0,Failed after retry
+176939617,failed,0,Failed after retry
+152802399,failed,0,Failed after retry
+49454407,failed,0,Failed after retry
+301628336,success,32741,
+376877578,failed,0,Failed after retry
+96198073,failed,0,Failed after retry
+377261957,success,13457,
+81986270,failed,0,Failed after retry
+471011765,success,17484,
+49453107,success,22514,
+78311379,failed,0,Failed after retry
+62942054,failed,0,Failed after retry
+49503383,failed,0,Failed after retry
+376851794,success,3399,
+66671319,success,13362,
+397027850,failed,0,Failed after retry
+376813641,failed,0,Failed after retry
+377231339,failed,0,Failed after retry
+388917185,success,13457,
+78288745,failed,0,Failed after retry
+56757296,failed,0,Failed after retry
+130590925,failed,0,No light curve found
+380154639,success,25737,
+130609107,failed,0,No light curve found
+396972192,failed,0,Failed after retry
+377170285,success,13457,
+380574362,success,26093,
+176939717,failed,0,Failed after retry
+173144498,failed,0,Failed after retry
+289446087,failed,0,Failed after retry
+366681657,failed,0,Failed after retry
+396972684,success,32369,
+366698963,failed,0,Failed after retry
+301628742,failed,0,Failed after retry
+82051536,failed,0,Failed after retry
+376852778,failed,0,Failed after retry
+35020198,failed,0,Failed after retry
+149969713,success,13457,
+396947690,success,26213,
+78310229,failed,0,Failed after retry
+349446059,success,13359,
+953345605,success,13457,
+301628517,success,14088,
+377169488,success,17755,
+349445700,failed,0,Failed after retry
+56758940,failed,0,Failed after retry
+281910007,success,26158,
+380668809,failed,0,Failed after retry
+349445507,failed,0,Failed after retry
+173098445,failed,0,Failed after retry
+49505756,failed,0,Failed after retry
+376797035,failed,0,Failed after retry
+376876117,failed,0,Failed after retry
+396956082,success,13326,
+376849892,failed,0,Failed after retry
+325315247,failed,0,Failed after retry
+35062784,success,13253,
+96195963,success,3521,
+82051519,success,22523,
+953230073,success,13347,
+366681600,success,26358,
+49544688,failed,0,Failed after retry
+366700465,failed,0,Failed after retry
+262932870,failed,0,Failed after retry
+380154051,failed,0,Failed after retry
+446676411,failed,0,Failed after retry
+397057078,success,16721,
+35063277,failed,0,Failed after retry
+56762708,failed,0,Failed after retry
+366661005,failed,0,Failed after retry
+49428268,failed,0,Failed after retry
+176942289,failed,0,Failed after retry
+35020546,success,6704,
+281907937,success,6707,
+376855340,failed,0,Failed after retry
+301627158,failed,0,Failed after retry
+35091182,success,3521,
+421193922,success,3521,
+376812222,failed,0,Failed after retry
+446674414,failed,0,Failed after retry
+376786621,success,26376,
+325274111,failed,0,Failed after retry
+377261907,failed,0,Failed after retry
+366683035,success,10689,
+35021058,success,16542,
+82054003,success,22506,
+147698405,failed,0,Failed after retry
+376811773,failed,0,Failed after retry
+35019584,success,3521,
+380576437,success,13305,
+397559029,success,6614,
+366660590,failed,0,Failed after retry
+81988659,success,57052,
+173164452,success,32361,
+62941615,failed,0,Failed after retry
+337749805,success,26390,
+397026518,failed,0,Failed after retry
+376885007,success,0,
+35062961,success,3521,
+380577004,failed,0,Failed after retry
+377170968,failed,0,Failed after retry
+514777201,failed,0,Failed after retry
+56759260,failed,0,Failed after retry
+94892463,failed,0,Failed after retry
+366699056,failed,0,Failed after retry
+56769750,failed,0,Failed after retry
+35089981,failed,0,Failed after retry
+94942406,success,13324,
+446673895,success,3521,
+49429194,failed,0,Failed after retry
+396949397,success,26044,
+144169409,failed,0,Failed after retry
+366697134,success,22988,
+49503211,failed,0,Failed after retry
+56720742,failed,0,Failed after retry
+366740946,success,16691,
+173146026,failed,0,Failed after retry
+397056796,failed,0,Failed after retry
+397519893,failed,0,Failed after retry
+281884917,failed,0,Failed after retry
+376788155,failed,0,No light curve found
+281930003,success,22826,
+149968032,failed,0,Failed after retry
+94942452,failed,0,Failed after retry
+397013579,success,22495,
+78272475,success,22521,
+377172217,failed,0,Failed after retry
+49417695,success,25748,
+380165620,success,25897,
+366722645,failed,0,Failed after retry
+397024279,failed,0,Failed after retry
+94941091,success,13435,
+49503251,failed,0,Failed after retry
+350475525,failed,0,Failed after retry
+56720653,failed,0,Failed after retry
+366681641,failed,0,Failed after retry
+397023174,failed,0,Failed after retry
+376788286,success,3521,
+49425777,failed,0,Failed after retry
+397433224,failed,0,Failed after retry
+380642118,success,32269,
+262933844,success,16696,
+376757421,failed,0,Failed after retry
+144248788,failed,0,Failed after retry
+49505344,failed,0,Failed after retry
+94925235,failed,0,Failed after retry
+350475239,success,32847,
+96194297,failed,0,Failed after retry
+376886844,success,3508,
+421191821,failed,0,Failed after retry
+56762988,failed,0,Failed after retry
+49428468,failed,0,Failed after retry
+366660744,success,22942,
+262933775,success,13457,
+49429389,failed,0,Failed after retry
+130590314,failed,0,Failed after retry
+78311593,success,14120,
+376854857,failed,0,Failed after retry
+397053650,success,13445,
+377250195,failed,0,Failed after retry
+66672997,failed,0,Failed after retry
+349457896,success,16634,
+366721504,success,13457,
+446673665,success,6704,
+35010505,success,3521,
+78310159,failed,0,Failed after retry
+380544735,failed,0,Failed after retry
+49425732,failed,0,Failed after retry
+377189264,failed,0,Failed after retry
+78310275,failed,0,Failed after retry
+325314611,success,26126,
+366660857,failed,0,Failed after retry
+130634938,failed,0,Failed after retry
+366681846,failed,0,Failed after retry
+397025502,success,23001,
+377171333,success,17785,
+49462876,success,14141,
+363573260,failed,0,Failed after retry
+325273691,failed,0,Failed after retry
+173110027,failed,0,Failed after retry
+397559186,success,7806,
+953309403,success,3521,
+147684364,failed,0,Failed after retry
+366682043,failed,0,Failed after retry
+380545064,success,25700,
+366659915,success,252563,
+325253920,failed,0,Failed after retry
+94894689,success,13440,
+389355303,failed,0,Failed after retry
+49503236,failed,0,Failed after retry
+78311047,failed,0,Failed after retry
+56771121,failed,0,Failed after retry
+397482688,failed,0,Failed after retry
+152821936,success,13301,
+152824458,success,13341,
+377259959,failed,0,Failed after retry
+130587710,failed,0,Failed after retry
+396950918,failed,0,Failed after retry
+152821930,failed,0,Failed after retry
+173107838,failed,0,Failed after retry
+96244566,failed,0,Failed after retry
+49453454,failed,0,Failed after retry
+377227927,success,17781,
+281906534,success,17328,
+149968469,success,16725,
+94942001,failed,0,Failed after retry
+301677389,failed,0,Failed after retry
+376786973,success,14091,
+78289427,success,3521,
+376865440,success,3351,
+173164734,failed,0,Failed after retry
+281930439,failed,0,Failed after retry
+130609604,success,13457,
+377249246,success,18718,
+49503072,success,14097,
+281930144,failed,0,Failed after retry
+130609452,failed,0,Failed after retry
+397519940,failed,0,Failed after retry
+376796816,failed,0,No light curve found
+380546881,failed,0,Failed after retry
+281930471,failed,0,Failed after retry
+96243166,failed,0,Failed after retry
+56813089,failed,0,No light curve found
+366681547,failed,0,Failed after retry
+380544998,failed,0,Failed after retry
+96198605,failed,0,Failed after retry
+421195365,failed,0,Failed after retry
+380575256,failed,0,Failed after retry
+66670666,failed,0,Failed after retry
+98582056,failed,0,Failed after retry
+49417722,failed,0,Failed after retry
+396936347,failed,0,Failed after retry
+377299052,failed,0,Failed after retry
+349456548,failed,0,Failed after retry
+56811411,success,16497,
+421192923,success,22526,
+281885196,failed,0,Failed after retry
+376850041,failed,0,Failed after retry
+380542756,success,17355,
+376855489,failed,0,Failed after retry
+377229529,success,14605,
+94924080,failed,0,Failed after retry
+35090467,failed,0,Failed after retry
+377228174,failed,0,Failed after retry
+35029242,failed,0,Failed after retry
+397057148,success,33086,
+147679321,failed,0,Failed after retry
+152805014,failed,0,Failed after retry
+397051786,success,13445,
+66671578,failed,0,No light curve found
+366698658,failed,0,Failed after retry
+78289768,failed,0,Failed after retry
+66630294,failed,0,Failed after retry
+388925004,failed,0,Failed after retry
+173146703,success,25759,
+376850415,success,23266,
+96197920,failed,0,Failed after retry
+56772673,success,32238,
+281885450,success,25764,
+49464897,failed,0,Failed after retry
+149952990,success,17697,
+49430090,success,22522,
+397433121,success,26031,
+376787979,success,22993,
+144275026,failed,0,Failed after retry
+380547676,failed,0,Failed after retry
+376866038,failed,0,Failed after retry
+66671454,success,13402,
+262810690,failed,0,Failed after retry
+376852459,failed,0,No light curve found
+152821992,success,13434,
+277226501,success,13423,
+56757489,failed,0,Failed after retry
+377231460,success,16731,
+49454723,failed,0,Failed after retry
+35010028,success,13316,
+56837222,failed,0,No light curve found
+421193626,success,22692,
+281886418,success,32784,
+376886008,success,13444,
+149952636,failed,0,Failed after retry
+397433100,failed,0,Failed after retry
+388917022,failed,0,Failed after retry
+66665990,failed,0,Failed after retry
+78310069,failed,0,Failed after retry
+176942039,success,16616,
+349456527,success,13356,
+147683792,success,13457,
+376787680,success,26380,
+337748884,failed,0,Failed after retry
+82050533,failed,0,Failed after retry
+56759890,success,16477,
+366723100,success,13457,
+149951742,success,13457,
+396956670,failed,0,Failed after retry
+376851258,success,14094,
+376852207,failed,0,Failed after retry
+281929681,success,6704,
+82052066,failed,0,Failed after retry
+366711151,success,13457,
+366660451,failed,0,Failed after retry
+49464162,success,22525,
+397027857,success,13396,
+56837390,failed,0,Failed after retry
+56762693,failed,0,Failed after retry
+325314625,success,26131,
+281929669,failed,0,Failed after retry
+325274571,success,17329,
+56762251,failed,0,Failed after retry
+173165274,success,46049,
+66629263,success,13382,
+377229299,failed,0,Failed after retry
+397479456,success,26040,
+144305727,failed,0,Failed after retry
+152802579,success,48763,
+277226011,failed,0,No light curve found
+421195539,failed,0,Failed after retry
+78273858,success,14135,
+147677682,success,13366,
+66604070,failed,0,Failed after retry
+149952651,failed,0,Failed after retry
+446676308,failed,0,Failed after retry
+376865766,failed,0,Failed after retry
+281907813,success,25942,
+281884571,success,26071,
+35063509,failed,0,Failed after retry
+376787460,success,14088,
+397489718,failed,0,Failed after retry
+35028573,failed,0,Failed after retry
+376876566,success,3508,
+953310411,success,3521,
+262933175,failed,0,Failed after retry
+35018117,failed,0,Failed after retry
+325316099,failed,0,Failed after retry
+262933863,failed,0,Failed after retry
+281929720,success,17377,
+366681348,failed,0,Failed after retry
+380542435,failed,0,Failed after retry
+397052497,failed,0,Failed after retry
+380642059,success,26077,
+152773273,failed,0,Failed after retry
+377249774,failed,0,Failed after retry
+62940822,success,22514,
+35088390,failed,0,Failed after retry

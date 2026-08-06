@@ -16,6 +16,7 @@ from pathlib import Path
 from jmespath import search
 import pandas as pd
 import lightkurve as lk
+import shutil
 
 
 TARGET_FILE = Path(
@@ -36,57 +37,70 @@ def download_light_curve(tic_id):
     Download and preprocess one TIC light curve.
     """
 
-    try:
+    for attempt in range(2):
 
-        search = lk.search_lightcurve(
-            f"TIC {tic_id}",
-            mission="TESS"
-        )
+        try:
 
-
-        if len(search) == 0:
-            return None, "No light curve found"
+            search = lk.search_lightcurve(
+                f"TIC {tic_id}",
+                mission="TESS"
+            )
 
 
-        # Download all available observations
-        collection = search.download_all()
+            if len(search) == 0:
+                return None, "No light curve found"
 
 
-        if collection is None:
-            return None, "Download failed"
+            collection = search.download_all()
 
 
-        # Select longest observation
-        lc = collection.stitch()
+            if collection is None:
+                return None, "Download failed"
 
 
-        if lc is None:
-            return None, "Download failed"
+            lc = collection.stitch()
 
 
-        # Remove missing values
-        lc = lc.remove_nans()
+            lc = lc.remove_nans()
+
+            lc = lc.normalize()
 
 
-        # Normalize flux
-        lc = lc.normalize()
+            df = pd.DataFrame(
+                {
+                    "time": lc.time.value,
+                    "flux": lc.flux.value
+                }
+            )
 
 
-        df = pd.DataFrame(
-            {
-                "time": lc.time.value,
-                "flux": lc.flux.value
-            }
-        )
+            return df, None
 
 
-        return df, None
+        except Exception as e:
+
+            error = str(e)
+
+            if "corrupt" in error.lower():
+
+                print(
+                    "Corrupt download detected. Clearing cache..."
+                )
+
+                cache = Path.home() / ".cache/lightkurve"
 
 
-    except Exception as e:
+                if cache.exists():
+                    shutil.rmtree(cache)
 
-        return None, str(e)
 
+                continue
+
+
+            return None, error
+
+
+    return None, "Failed after retry"
 
 
 def main():
@@ -105,7 +119,7 @@ def main():
 
     targets = pd.read_csv(
         TARGET_FILE
-    ).head(5)
+    )
 
 
     logs = []
@@ -125,6 +139,10 @@ def main():
             OUTPUT_DIR /
             f"TIC_{tic_id}.csv"
         )
+
+        if output_file.exists():
+            print("Already exists, skipping")
+            continue
 
 
         print(
