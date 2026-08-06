@@ -1,231 +1,158 @@
-"""
-StellarScope Feature Extraction Pipeline
-
-Converts processed TESS light curves into
-astronomy-inspired numerical features.
-
-Input:
-    data/processed/TIC_<id>.csv
-
-Output:
-    data/features/features.csv
-"""
-
-from pathlib import Path
-
-import numpy as np
 import pandas as pd
-
+import numpy as np
+from pathlib import Path
 from scipy.stats import skew, kurtosis
 from scipy.signal import find_peaks
 from astropy.timeseries import LombScargle
 
 
-PROCESSED_DIR = Path("data/processed")
-FEATURE_DIR = Path("data/features")
+INPUT_DIR = Path("data/processed")
+OUTPUT = Path("data/features/features.csv")
 
 
-def extract_variability_features(flux):
-    """
-    Basic brightness variability statistics.
-    """
-
-    return {
-        "flux_std": np.std(flux),
-        "flux_range": np.max(flux) - np.min(flux),
-        "flux_skew": skew(flux),
-        "flux_kurtosis": kurtosis(flux),
-    }
-
-
-def extract_period_features(time, flux):
-    """
-    Detect dominant stellar variability period
-    using Lomb-Scargle.
-
-    Restricts search away from cadence artifacts.
-    """
-
-    # Search periods between 0.1 and 30 days
-    min_period = 0.1
-    max_period = 30
-
-
-    min_frequency = 1 / max_period
-    max_frequency = 1 / min_period
-
-
-    frequency, power = LombScargle(
-        time,
-        flux
-    ).autopower(
-        minimum_frequency=min_frequency,
-        maximum_frequency=max_frequency
-    )
-
-
-    best_frequency = frequency[np.argmax(power)]
-
-    dominant_period = 1 / best_frequency
-
-    period_power = np.max(power)
-
-
-    return {
-        "dominant_period": dominant_period,
-        "period_power": period_power,
-    }
-
-def count_events(mask, min_points=5):
-    """
-    Count groups of consecutive True values.
-
-    Requires minimum duration to avoid
-    counting random noise fluctuations.
-    """
-
-    events = 0
-    current_length = 0
-
-    for value in mask:
-
-        if value:
-            current_length += 1
-
-        else:
-            if current_length >= min_points:
-                events += 1
-
-            current_length = 0
-
-
-    # Catch event at end of array
-    if current_length >= min_points:
-        events += 1
-
-
-    return events
-
-def extract_event_features(flux):
-    """
-    Detect unusual brightness events.
-
-    Groups consecutive points into events.
-    """
-
-    median = np.median(flux)
-    std = np.std(flux)
-
-    deviation = (flux - median) / std
-
-
-    flare_mask = deviation > 3
-    dip_mask = deviation < -3
-
-
-    return {
-        "flare_count": count_events(flare_mask),
-        "dip_count": count_events(dip_mask),
-    }
-
-def extract_features(filepath):
-    """
-    Extract all features from one light curve.
-    """
-
-    df = pd.read_csv(filepath)
+def extract_features(file):
+    df = pd.read_csv(file)
 
     time = df["time"].values
     flux = df["flux"].values
 
+    flux = flux / np.median(flux)
 
     features = {}
 
-    features.update(
-        extract_variability_features(flux)
+    features["flux_std"] = np.std(flux)
+
+    features["flux_range"] = np.max(flux) - np.min(flux)
+
+    features["flux_mad"] = np.median(
+        np.abs(flux - np.median(flux))
     )
 
-    features.update(
-        extract_period_features(
+    features["flux_skew"] = skew(flux)
+
+    features["flux_kurtosis"] = kurtosis(flux)
+
+    try:
+        frequency, power = LombScargle(
             time,
             flux
+        ).autopower()
+
+        best_index = np.argmax(power)
+
+        features["dominant_period"] = (
+            1 / frequency[best_index]
         )
-    )
 
-    features.update(
-        extract_event_features(flux)
-    )
+        features["period_power"] = power[best_index]
 
-
-    features["tic_id"] = (
-        filepath.stem.replace(
-            "TIC_",
-            ""
+        peaks, _ = find_peaks(
+            power,
+            height=np.percentile(power, 90)
         )
+
+        features["num_periods"] = len(peaks)
+
+    except Exception:
+        features["dominant_period"] = np.nan
+        features["period_power"] = np.nan
+        features["num_periods"] = 0
+
+    flare_threshold = (
+        np.mean(flux)
+        +
+        3 * np.std(flux)
     )
 
+    flare_peaks, flare_properties = find_peaks(
+        flux,
+        height=flare_threshold
+    )
+
+    features["flare_count"] = len(flare_peaks)
+
+    if len(flare_peaks) > 0:
+        features["largest_flare"] = (
+            np.max(flux[flare_peaks])
+            -
+            np.median(flux)
+        )
+    else:
+        features["largest_flare"] = 0
+
+
+    dip_threshold = (
+        np.mean(flux)
+        -
+        3 * np.std(flux)
+    )
+
+    dip_peaks, _ = find_peaks(
+        -flux,
+        height=-dip_threshold
+    )
+
+    features["dip_count"] = len(dip_peaks)
+
+    if len(dip_peaks) > 0:
+        features["largest_dip_depth"] = (
+            np.median(flux)
+            -
+            np.min(flux[dip_peaks])
+        )
+    else:
+        features["largest_dip_depth"] = 0
+
+    features["tic_id"] = int(
+        file.stem.replace("TIC_", "")
+    )
 
     return features
 
 
-
 def main():
+    files = sorted(
+        INPUT_DIR.glob("TIC_*.csv")
+    )
 
-    FEATURE_DIR.mkdir(
+    print(
+        f"Processing {len(files)} stars..."
+    )
+
+    results = []
+
+    for index, file in enumerate(files):
+
+        print(
+            f"[{index + 1}/{len(files)}] Extracting {file.name}"
+        )
+
+        try:
+            results.append(
+                extract_features(file)
+            )
+
+        except Exception as error:
+            print(
+                f"Failed: {file.name} | {error}"
+            )
+
+    feature_df = pd.DataFrame(results)
+
+    OUTPUT.parent.mkdir(
         exist_ok=True
     )
 
-    all_features = []
-
-
-    files = list(
-        PROCESSED_DIR.glob(
-            "TIC_*.csv"
-        )
-    )
-
-
-    print(
-        f"Processing {len(files)} light curves..."
-    )
-
-
-    for file in files:
-
-        print(
-            f"Extracting: {file.name}"
-        )
-
-        features = extract_features(
-            file
-        )
-
-        all_features.append(
-            features
-        )
-
-
-    feature_df = pd.DataFrame(
-        all_features
-    )
-
-
-    output = FEATURE_DIR / "features.csv"
-
-
     feature_df.to_csv(
-        output,
+        OUTPUT,
         index=False
     )
 
-
     print(
-        f"\nSaved features: {output}"
+        f"Saved features: {OUTPUT}"
     )
 
-    print(
-        feature_df
-    )
+    print(feature_df.head())
 
 
 if __name__ == "__main__":
