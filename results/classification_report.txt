@@ -1,0 +1,28 @@
+random_forest
+Accuracy: 0.9744
+
+              precision    recall  f1-score   support
+
+           0       0.89      1.00      0.94         8
+           1       1.00      1.00      1.00        18
+           2       1.00      0.92      0.96        13
+
+    accuracy                           0.97        39
+   macro avg       0.96      0.97      0.97        39
+weighted avg       0.98      0.97      0.97        39
+
+
+logistic_regression
+Accuracy: 0.7436
+
+              precision    recall  f1-score   support
+
+           0       0.70      0.88      0.78         8
+           1       0.86      0.67      0.75        18
+           2       0.67      0.77      0.71        13
+
+    accuracy                           0.74        39
+   macro avg       0.74      0.77      0.75        39
+weighted avg       0.76      0.74      0.74        39
+
+
