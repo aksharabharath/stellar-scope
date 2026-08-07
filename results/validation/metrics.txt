@@ -1,0 +1,10 @@
+                precision    recall  f1-score   support
+
+flare_variable       0.00      0.00      0.00       0.0
+    quiet_star       0.00      0.00      0.00       0.0
+          star       0.00      0.00      0.00     194.0
+ variable_star       0.00      0.00      0.00       0.0
+
+      accuracy                           0.00     194.0
+     macro avg       0.00      0.00      0.00     194.0
+  weighted avg       0.00      0.00      0.00     194.0

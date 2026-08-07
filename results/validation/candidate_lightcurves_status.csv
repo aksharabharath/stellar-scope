@@ -1,0 +1,11 @@
+tic_id,status,output,seconds
+380165622,success,results/validation/candidate_lightcurves/TIC_380165622_lightcurve.png,1.34
+376787680,success,results/validation/candidate_lightcurves/TIC_376787680_lightcurve.png,0.57
+380668425,success,results/validation/candidate_lightcurves/TIC_380668425_lightcurve.png,0.53
+325314611,success,results/validation/candidate_lightcurves/TIC_325314611_lightcurve.png,0.54
+149951723,success,results/validation/candidate_lightcurves/TIC_149951723_lightcurve.png,0.5
+173107765,success,results/validation/candidate_lightcurves/TIC_173107765_lightcurve.png,0.53
+397013579,success,results/validation/candidate_lightcurves/TIC_397013579_lightcurve.png,0.56
+173164452,success,results/validation/candidate_lightcurves/TIC_173164452_lightcurve.png,0.61
+149969713,success,results/validation/candidate_lightcurves/TIC_149969713_lightcurve.png,0.59
+49503072,success,results/validation/candidate_lightcurves/TIC_49503072_lightcurve.png,0.51

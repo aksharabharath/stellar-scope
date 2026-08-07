@@ -1,0 +1,18 @@
+Stellar-Scope VSX Error Analysis
+
+Total errors: 24
+
+
+Error categories:
+
+other: 24
+
+
+Feature averages by error type:
+
+            flux_std  flux_range  flux_mad  flux_skew  flux_kurtosis  dominant_period  period_power  num_periods  flare_count  largest_flare  dip_count  largest_dip_depth
+error_type                                                                                                                                                                
+other       0.273155   26.781722  0.005674   37.15987    5970.670134       101.129564      0.017303  5500.416667    32.041667      25.865689      7.125            0.70974
+
+
+Most suspicious missed variables:

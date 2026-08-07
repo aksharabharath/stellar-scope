@@ -1,0 +1,46 @@
+Stellar-Scope VSX Error Analysis
+========================================
+
+Total errors: 28
+
+Error categories:
+error_type
+generic_variable     25
+other                 2
+flare_to_periodic     1
+Name: count, dtype: int64
+
+Average feature values by error type:
+                   flux_std  ...  largest_dip_depth
+error_type                   ...                   
+flare_to_periodic  1.121899  ...           0.000000
+generic_variable   0.185915  ...           0.779715
+other              0.442703  ...           0.247457
+
+[3 rows x 17 columns]
+
+High confidence mistakes:
+21
+
+       tic_id          prediction vsx_classification  confidence
+0   149969713   periodic_variable                NaN       0.985
+1   173164452      flare_variable           variable       0.985
+4   281929720  transient_variable           variable       0.990
+5   281930003   periodic_variable           variable       0.935
+7   325314611      flare_variable           variable       0.965
+8   325314625        non_variable           variable       0.965
+10   35010589        non_variable           variable       0.975
+11   35016665   periodic_variable           variable       0.935
+12  366660744        non_variable           variable       0.975
+13  366697134        non_variable           variable       0.955
+15  376787010        non_variable           variable       0.970
+16  376851794  transient_variable           variable       0.985
+17  380545064        non_variable           variable       0.975
+18  380546964   periodic_variable           variable       0.965
+19  380574362        non_variable           variable       0.990
+21  396972684      flare_variable           variable       0.910
+22  471011765      flare_variable                NaN       0.920
+23   49418514  transient_variable           variable       1.000
+25   82054568        non_variable           variable       0.980
+26   96194410        non_variable           variable       0.975
+27   96195963        non_variable           variable       0.960

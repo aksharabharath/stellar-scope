@@ -37,7 +37,7 @@ def generate_targets(
 
     catalog = Catalogs.query_region(
         coord,
-        radius=5 * u.deg,
+        radius=8 * u.deg,
         catalog="Tic"
     )
 
@@ -56,8 +56,22 @@ def generate_targets(
     ]
 
 
+    # Remove missing identifiers
     df = df.dropna(
         subset=["ID"]
+    )
+
+
+    # Prefer brighter stars
+    if "Tmag" in df.columns:
+
+        df = df[
+            df["Tmag"] < 12
+        ]
+
+
+    print(
+        f"After filtering: {len(df)} stars"
     )
 
 

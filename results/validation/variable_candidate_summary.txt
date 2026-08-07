@@ -1,0 +1,103 @@
+Top Variable Candidates
+=======================
+
+TIC 380165622
+Prediction: transient_variable
+Confidence: 1.0
+Score: 12.092
+
+TIC 376787680
+Prediction: periodic_variable
+Confidence: 0.905
+Score: 11.036
+
+TIC 380668425
+Prediction: periodic_variable
+Confidence: 0.955
+Score: 10.537
+
+TIC 325314611
+Prediction: flare_variable
+Confidence: 0.965
+Score: 10.161
+
+TIC 149951723
+Prediction: periodic_variable
+Confidence: 0.945
+Score: 10.129
+
+TIC 173107765
+Prediction: flare_variable
+Confidence: 0.975
+Score: 10.064
+
+TIC 397013579
+Prediction: periodic_variable
+Confidence: 0.95
+Score: 9.988
+
+TIC 173164452
+Prediction: flare_variable
+Confidence: 0.985
+Score: 9.759
+
+TIC 149969713
+Prediction: periodic_variable
+Confidence: 0.985
+Score: 9.729
+
+TIC 49503072
+Prediction: periodic_variable
+Confidence: 0.9
+Score: 9.560
+
+TIC 366740946
+Prediction: periodic_variable
+Confidence: 0.98
+Score: 9.513
+
+TIC 397057078
+Prediction: periodic_variable
+Confidence: 0.975
+Score: 9.379
+
+TIC 56811411
+Prediction: periodic_variable
+Confidence: 0.95
+Score: 9.349
+
+TIC 66628887
+Prediction: periodic_variable
+Confidence: 1.0
+Score: 9.331
+
+TIC 262934195
+Prediction: flare_variable
+Confidence: 0.955
+Score: 9.309
+
+TIC 262933844
+Prediction: periodic_variable
+Confidence: 0.985
+Score: 9.308
+
+TIC 376787979
+Prediction: periodic_variable
+Confidence: 0.95
+Score: 9.185
+
+TIC 94942406
+Prediction: periodic_variable
+Confidence: 0.97
+Score: 9.151
+
+TIC 66603888
+Prediction: flare_variable
+Confidence: 0.935
+Score: 9.144
+
+TIC 471011765
+Prediction: flare_variable
+Confidence: 0.92
+Score: 9.050
+

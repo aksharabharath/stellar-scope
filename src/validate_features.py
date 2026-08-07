@@ -15,8 +15,12 @@ def main():
         "missing_values": df.isna().sum(axis=1),
         "extreme_variability": df["flux_std"] > 0.5,
         "large_flux_range": df["flux_range"] > 5,
-        "negative_period": df["dominant_period"] < 0,
-        "high_period_power": df["period_power"] > 0.5
+        "invalid_period": (
+            (df["dominant_period"] < 0.05)
+            |
+            (df["dominant_period"] > 100)
+        ),
+       "high_period_power": df["period_power"] > 0.3
     })
 
     report["quality_flags"] = (
