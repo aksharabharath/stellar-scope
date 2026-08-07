@@ -1,0 +1,7 @@
+tic_id,morphology,confidence,validation_flag,vsx_match,vsx_name,vsx_type,vsx_period,error,classification
+376787680,periodic_variable,0.905,strong_candidate,False,,,,,possible_new_candidate
+380668425,periodic_variable,0.955,strong_candidate,False,,,,,possible_new_candidate
+149951723,periodic_variable,0.945,strong_candidate,False,,,,,possible_new_candidate
+397013579,periodic_variable,0.95,strong_candidate,False,,,,,possible_new_candidate
+149969713,periodic_variable,0.985,strong_candidate,False,,,,,possible_new_candidate
+49503072,periodic_variable,0.9,strong_candidate,False,,,,,possible_new_candidate

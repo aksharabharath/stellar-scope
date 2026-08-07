@@ -1,0 +1,35 @@
+NEW VARIABLE CANDIDATE REPORT
+========================================
+
+Total candidates: 4
+
+Priority:
+moderate_candidate: 2
+strong_variability: 2
+
+Candidates:
+
+TIC 149951723
+Type: periodic_variable
+Period: 17.44752726148948 days
+Amplitude: 0.0517838867652918
+Priority: moderate_candidate
+
+TIC 397013579
+Type: periodic_variable
+Period: 14.023957671152028 days
+Amplitude: 0.1534403470896848
+Priority: moderate_candidate
+
+TIC 380668425
+Type: periodic_variable
+Period: 12.084528442791337 days
+Amplitude: 0.1838622242967773
+Priority: strong_variability
+
+TIC 49503072
+Type: periodic_variable
+Period: 6.8509903641385845 days
+Amplitude: 0.2956368320712953
+Priority: strong_variability
+

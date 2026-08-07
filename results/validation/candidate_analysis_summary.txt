@@ -1,0 +1,63 @@
+Candidate Lightcurve Analysis
+============================
+
+TIC 380165622
+Prediction: transient_variable
+Amplitude: 76379.59810
+RMS: 619.77815
+Period: 88.00853 days
+
+TIC 376787680
+Prediction: periodic_variable
+Amplitude: 1.99090
+RMS: 0.04523
+Period: 0.20073 days
+
+TIC 380668425
+Prediction: periodic_variable
+Amplitude: 1.99731
+RMS: 0.04319
+Period: 12.08453 days
+
+TIC 325314611
+Prediction: flare_variable
+Amplitude: 4.38496
+RMS: 0.03651
+Period: 0.16538 days
+
+TIC 149951723
+Prediction: periodic_variable
+Amplitude: 0.53007
+RMS: 0.01280
+Period: 17.44753 days
+
+TIC 173107765
+Prediction: flare_variable
+Amplitude: 5.03171
+RMS: 0.05313
+Period: 0.36432 days
+
+TIC 397013579
+Prediction: periodic_variable
+Amplitude: 1.38016
+RMS: 0.03569
+Period: 14.02396 days
+
+TIC 173164452
+Prediction: flare_variable
+Amplitude: 0.02360
+RMS: 0.00211
+Period: 9.34800 days
+
+TIC 149969713
+Prediction: periodic_variable
+Amplitude: 0.56766
+RMS: 0.03708
+Period: 1.03618 days
+
+TIC 49503072
+Prediction: periodic_variable
+Amplitude: 1.91295
+RMS: 0.06089
+Period: 6.85099 days
+

@@ -1,0 +1,1369 @@
+Variable Candidate Validation Report
+=============================================
+
+Total candidates analyzed: 194
+
+Validation categories:
+  weak_variability: 185
+  strong_candidate: 6
+  needs_review: 3
+
+Candidate Details:
+---------------------------------------------
+TIC 380165622
+  Morphology: transient_event
+  Confidence: 1.0
+  Score: NA
+  Period: NA days
+  Validation: needs_review
+
+TIC 376787680
+  Morphology: periodic_variable
+  Confidence: 0.905
+  Score: NA
+  Period: NA days
+  Validation: strong_candidate
+
+TIC 380668425
+  Morphology: periodic_variable
+  Confidence: 0.955
+  Score: NA
+  Period: NA days
+  Validation: strong_candidate
+
+TIC 325314611
+  Morphology: transient_event
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: needs_review
+
+TIC 149951723
+  Morphology: periodic_variable
+  Confidence: 0.945
+  Score: NA
+  Period: NA days
+  Validation: strong_candidate
+
+TIC 173107765
+  Morphology: transient_event
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: needs_review
+
+TIC 397013579
+  Morphology: periodic_variable
+  Confidence: 0.95
+  Score: NA
+  Period: NA days
+  Validation: strong_candidate
+
+TIC 173164452
+  Morphology: low_amplitude_variable
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 149969713
+  Morphology: periodic_variable
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: strong_candidate
+
+TIC 49503072
+  Morphology: periodic_variable
+  Confidence: 0.9
+  Score: NA
+  Period: NA days
+  Validation: strong_candidate
+
+TIC 366740946
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397057078
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 56811411
+  Morphology: nan
+  Confidence: 0.95
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 66628887
+  Morphology: nan
+  Confidence: 1.0
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 262934195
+  Morphology: nan
+  Confidence: 0.955
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 262933844
+  Morphology: nan
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376787979
+  Morphology: nan
+  Confidence: 0.95
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 94942406
+  Morphology: nan
+  Confidence: 0.97
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 66603888
+  Morphology: nan
+  Confidence: 0.935
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 471011765
+  Morphology: nan
+  Confidence: 0.92
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 130587794
+  Morphology: nan
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377261957
+  Morphology: nan
+  Confidence: 0.84
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 953309403
+  Morphology: nan
+  Confidence: 0.95
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 147683759
+  Morphology: nan
+  Confidence: 0.97
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 262933775
+  Morphology: nan
+  Confidence: 0.96
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 149968469
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 446673665
+  Morphology: nan
+  Confidence: 0.94
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35028471
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366711151
+  Morphology: nan
+  Confidence: 0.995
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 56762947
+  Morphology: nan
+  Confidence: 0.955
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376850415
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 56810374
+  Morphology: nan
+  Confidence: 0.96
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366721504
+  Morphology: nan
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35020546
+  Morphology: nan
+  Confidence: 0.95
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281907813
+  Morphology: nan
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 953345605
+  Morphology: nan
+  Confidence: 0.99
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 149951742
+  Morphology: nan
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377249503
+  Morphology: nan
+  Confidence: 0.96
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 380546964
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377262134
+  Morphology: nan
+  Confidence: 0.99
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 325253026
+  Morphology: nan
+  Confidence: 0.755
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397056703
+  Morphology: nan
+  Confidence: 0.97
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 396972684
+  Morphology: nan
+  Confidence: 0.91
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377249246
+  Morphology: nan
+  Confidence: 0.935
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35062961
+  Morphology: nan
+  Confidence: 0.97
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397057148
+  Morphology: nan
+  Confidence: 0.84
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 388917185
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 78289496
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376852649
+  Morphology: nan
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 82054003
+  Morphology: nan
+  Confidence: 0.91
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 380165620
+  Morphology: nan
+  Confidence: 1.0
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366723100
+  Morphology: nan
+  Confidence: 0.955
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376876566
+  Morphology: nan
+  Confidence: 0.895
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281906534
+  Morphology: nan
+  Confidence: 0.93
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 388925056
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281930003
+  Morphology: nan
+  Confidence: 0.935
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 147697618
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 62941422
+  Morphology: nan
+  Confidence: 0.95
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35062784
+  Morphology: nan
+  Confidence: 0.91
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376788286
+  Morphology: nan
+  Confidence: 0.945
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376786973
+  Morphology: nan
+  Confidence: 0.885
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35088534
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 325254297
+  Morphology: nan
+  Confidence: 0.94
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377171333
+  Morphology: nan
+  Confidence: 0.88
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 49430090
+  Morphology: nan
+  Confidence: 1.0
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 176942039
+  Morphology: nan
+  Confidence: 0.88
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 152829505
+  Morphology: nan
+  Confidence: 0.915
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 49464162
+  Morphology: nan
+  Confidence: 0.925
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281907937
+  Morphology: nan
+  Confidence: 0.935
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397479456
+  Morphology: nan
+  Confidence: 0.865
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 337749805
+  Morphology: nan
+  Confidence: 0.855
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 412130750
+  Morphology: nan
+  Confidence: 0.865
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35016665
+  Morphology: nan
+  Confidence: 0.935
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 49504164
+  Morphology: nan
+  Confidence: 0.82
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 147683792
+  Morphology: nan
+  Confidence: 0.945
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35010505
+  Morphology: nan
+  Confidence: 0.93
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366683035
+  Morphology: nan
+  Confidence: 0.915
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 152821992
+  Morphology: nan
+  Confidence: 0.83
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 173146703
+  Morphology: nan
+  Confidence: 0.89
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 96195395
+  Morphology: nan
+  Confidence: 0.865
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 396947690
+  Morphology: nan
+  Confidence: 0.795
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 149951788
+  Morphology: nan
+  Confidence: 0.865
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 96195643
+  Morphology: nan
+  Confidence: 0.89
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 96244132
+  Morphology: nan
+  Confidence: 0.92
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 66671319
+  Morphology: nan
+  Confidence: 0.805
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281907544
+  Morphology: nan
+  Confidence: 0.82
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366722161
+  Morphology: nan
+  Confidence: 0.895
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281885450
+  Morphology: nan
+  Confidence: 0.79
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 421193432
+  Morphology: nan
+  Confidence: 0.88
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 953310411
+  Morphology: nan
+  Confidence: 0.805
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35091182
+  Morphology: nan
+  Confidence: 0.735
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377169533
+  Morphology: nan
+  Confidence: 0.87
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377231460
+  Morphology: nan
+  Confidence: 0.815
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 66671454
+  Morphology: nan
+  Confidence: 0.815
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 149952990
+  Morphology: nan
+  Confidence: 0.765
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377169488
+  Morphology: nan
+  Confidence: 0.735
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 49418514
+  Morphology: nan
+  Confidence: 1.0
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281929720
+  Morphology: nan
+  Confidence: 0.99
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 149968627
+  Morphology: nan
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 94941091
+  Morphology: nan
+  Confidence: 1.0
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 94894689
+  Morphology: nan
+  Confidence: 0.995
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35021058
+  Morphology: nan
+  Confidence: 1.0
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 349457896
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376851794
+  Morphology: nan
+  Confidence: 0.985
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35019584
+  Morphology: nan
+  Confidence: 0.58
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377227927
+  Morphology: nan
+  Confidence: 0.625
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35010028
+  Morphology: nan
+  Confidence: 0.73
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 130609604
+  Morphology: nan
+  Confidence: 0.655
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281910007
+  Morphology: nan
+  Confidence: 0.6
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376865440
+  Morphology: nan
+  Confidence: 0.69
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377172242
+  Morphology: nan
+  Confidence: 0.625
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377170285
+  Morphology: nan
+  Confidence: 0.63
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 78272475
+  Morphology: nan
+  Confidence: 0.48
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 421192923
+  Morphology: nan
+  Confidence: 0.585
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 953230073
+  Morphology: nan
+  Confidence: 0.805
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281884571
+  Morphology: nan
+  Confidence: 0.485
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 446671796
+  Morphology: nan
+  Confidence: 0.465
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 82054568
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397433121
+  Morphology: nan
+  Confidence: 0.99
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376784892
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376786621
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 325314625
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 62940822
+  Morphology: nan
+  Confidence: 0.97
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376787010
+  Morphology: nan
+  Confidence: 0.97
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 301628517
+  Morphology: nan
+  Confidence: 0.99
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 380545064
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 152802579
+  Morphology: nan
+  Confidence: 0.945
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 49462876
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376787460
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 147677682
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 49417695
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 173165274
+  Morphology: nan
+  Confidence: 0.96
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 56759890
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366660744
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 49453107
+  Morphology: nan
+  Confidence: 0.97
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 377229529
+  Morphology: nan
+  Confidence: 0.955
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 56812140
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366681600
+  Morphology: nan
+  Confidence: 0.945
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 350475239
+  Morphology: nan
+  Confidence: 0.955
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 349456527
+  Morphology: nan
+  Confidence: 0.95
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397027857
+  Morphology: nan
+  Confidence: 0.96
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 396949397
+  Morphology: nan
+  Confidence: 0.935
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 380574362
+  Morphology: nan
+  Confidence: 0.99
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 380154639
+  Morphology: nan
+  Confidence: 0.955
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 78311593
+  Morphology: nan
+  Confidence: 0.95
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 380642118
+  Morphology: nan
+  Confidence: 0.92
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 349446059
+  Morphology: nan
+  Confidence: 0.945
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366697134
+  Morphology: nan
+  Confidence: 0.955
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397025502
+  Morphology: nan
+  Confidence: 0.94
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 56763829
+  Morphology: nan
+  Confidence: 0.91
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376813729
+  Morphology: nan
+  Confidence: 0.97
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 277226501
+  Morphology: nan
+  Confidence: 0.91
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366698806
+  Morphology: nan
+  Confidence: 0.92
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 78273858
+  Morphology: nan
+  Confidence: 0.89
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 421193626
+  Morphology: nan
+  Confidence: 0.955
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 446673895
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35062897
+  Morphology: nan
+  Confidence: 0.98
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 96194410
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 35010589
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 380642059
+  Morphology: nan
+  Confidence: 0.85
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397051786
+  Morphology: nan
+  Confidence: 0.97
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397053650
+  Morphology: nan
+  Confidence: 0.975
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397051818
+  Morphology: nan
+  Confidence: 0.895
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 78289427
+  Morphology: nan
+  Confidence: 0.965
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 152821936
+  Morphology: nan
+  Confidence: 0.88
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 96195963
+  Morphology: nan
+  Confidence: 0.96
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 363574007
+  Morphology: nan
+  Confidence: 0.88
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 380576437
+  Morphology: nan
+  Confidence: 0.84
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 78290719
+  Morphology: nan
+  Confidence: 0.865
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397559186
+  Morphology: nan
+  Confidence: 0.84
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376886008
+  Morphology: nan
+  Confidence: 0.875
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 96195354
+  Morphology: nan
+  Confidence: 0.945
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 421193239
+  Morphology: nan
+  Confidence: 0.925
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 66629263
+  Morphology: nan
+  Confidence: 0.875
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 56760934
+  Morphology: nan
+  Confidence: 0.935
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 49464291
+  Morphology: nan
+  Confidence: 0.815
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376851258
+  Morphology: nan
+  Confidence: 0.9
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 152824458
+  Morphology: nan
+  Confidence: 0.925
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 82051519
+  Morphology: nan
+  Confidence: 0.835
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 81988659
+  Morphology: nan
+  Confidence: 0.8
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281886418
+  Morphology: nan
+  Confidence: 0.79
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 366659915
+  Morphology: nan
+  Confidence: 0.68
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 281929681
+  Morphology: nan
+  Confidence: 0.82
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 421193922
+  Morphology: nan
+  Confidence: 0.88
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 396956082
+  Morphology: nan
+  Confidence: 0.705
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 380542756
+  Morphology: nan
+  Confidence: 0.655
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376812733
+  Morphology: nan
+  Confidence: 0.74
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 397559029
+  Morphology: nan
+  Confidence: 0.67
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 152827208
+  Morphology: nan
+  Confidence: 0.72
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 62964949
+  Morphology: nan
+  Confidence: 0.645
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 56772673
+  Morphology: nan
+  Confidence: 0.58
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 376886844
+  Morphology: nan
+  Confidence: 0.6
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 301628336
+  Morphology: nan
+  Confidence: 0.485
+  Score: NA
+  Period: NA days
+  Validation: weak_variability
+
+TIC 325274571
+  Morphology: nan
+  Confidence: 0.455
+  Score: NA
+  Period: NA days
+  Validation: weak_variability

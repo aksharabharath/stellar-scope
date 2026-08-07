@@ -1,0 +1,5 @@
+tic_id,period_days,time_span_days,num_points,phase_plot,amplitude,std,skewness,kurtosis,confidence,classification,priority
+149951723,16.724550197283758,1251.1964567698951,13457,results/validation/variable_characterization/TIC_149951723_phase_curve.png,0.05178388676529189,0.012367785700595053,-6.810886256504829,312.05518729548635,0.9,possible_new_candidate,moderate_candidate
+397013579,14.023957671152028,734.016219062566,22495,results/validation/variable_characterization/TIC_397013579_phase_curve.png,0.1534403470896848,0.03494031893820681,-4.206177728500388,149.91233447781053,0.9,possible_new_candidate,moderate_candidate
+380668425,12.09448436316614,734.0162174130369,17105,results/validation/variable_characterization/TIC_380668425_phase_curve.png,0.18386222429677734,0.04272668039427077,1.764650922390079,71.29105671092637,0.9,possible_new_candidate,strong_variability
+49503072,6.719288987313599,734.0162187594556,14097,results/validation/variable_characterization/TIC_49503072_phase_curve.png,0.2956368320712953,0.06078124333328229,1.4790988806173184,35.362078829622995,0.9,possible_new_candidate,strong_variability
