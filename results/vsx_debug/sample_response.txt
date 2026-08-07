@@ -1,0 +1,1 @@
+you specified a malformed fuseaction of api. a fully qualified fuseaction must be in the form [circuit].[fuseaction].

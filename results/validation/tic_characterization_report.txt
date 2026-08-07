@@ -1,0 +1,39 @@
+TIC CHARACTERIZATION REPORT
+===========================
+
+TIC 149951723
+Classification: possible_new_candidate
+Morphology: 
+Temperature: 4269.0 K
+Radius: 42.9515 Rsun
+Mass: nan Msun
+TESS magnitude: 9.3334
+Period: 16.724550197283758 days
+
+TIC 397013579
+Classification: possible_new_candidate
+Morphology: 
+Temperature: 4795.0 K
+Radius: 13.2206 Rsun
+Mass: nan Msun
+TESS magnitude: 10.1841
+Period: 14.023957671152028 days
+
+TIC 380668425
+Classification: possible_new_candidate
+Morphology: 
+Temperature: nan K
+Radius: nan Rsun
+Mass: nan Msun
+TESS magnitude: 10.877
+Period: 12.09448436316614 days
+
+TIC 49503072
+Classification: possible_new_candidate
+Morphology: 
+Temperature: 6629.0 K
+Radius: 1.66675 Rsun
+Mass: 1.39 Msun
+TESS magnitude: 11.7367
+Period: 6.719288987313599 days
+

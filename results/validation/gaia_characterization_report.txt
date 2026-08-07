@@ -1,0 +1,23 @@
+GAIA CHARACTERIZATION REPORT
+============================
+
+TIC 149951723
+Temperature: None K
+Radius: None Rsun
+BP-RP: None
+
+TIC 397013579
+Temperature: None K
+Radius: None Rsun
+BP-RP: None
+
+TIC 380668425
+Temperature: None K
+Radius: None Rsun
+BP-RP: None
+
+TIC 49503072
+Temperature: None K
+Radius: None Rsun
+BP-RP: None
+
