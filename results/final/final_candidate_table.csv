@@ -1,0 +1,11 @@
+tic_id,classification,morphology,confidence,period_days,amplitude,temperature_K,radius_solar,mass_solar,luminosity_solar,vsx_match,priority,interpretation
+380165622,,transient_event,0.95,,0.016905093004616,,,,,,known_variable,Transient-like behavior detected. Requires inspection for instrumental effects or astrophysical events.
+376787680,,periodic_variable,0.9,,0.1183522859950925,,,,,True,known_variable,"Strong periodic variability. Possible rotational variable, pulsating star, or eclipsing system."
+380668425,possible_new_candidate,periodic_variable,0.9,,0.1838622242967773,,,,,False,strong_candidate,"Strong periodic variability. Possible rotational variable, pulsating star, or eclipsing system."
+325314611,,transient_event,0.95,,0.008478997554025,,,,,,known_variable,Transient-like behavior detected. Requires inspection for instrumental effects or astrophysical events.
+149951723,possible_new_candidate,periodic_variable,0.9,,0.0517838867652918,4269.0,42.9515,,,False,moderate_candidate,Periodic variability detected. Requires additional classification.
+173107765,,transient_event,0.95,,0.0071374016552206,,,,,,known_variable,Transient-like behavior detected. Requires inspection for instrumental effects or astrophysical events.
+397013579,possible_new_candidate,periodic_variable,0.9,,0.1534403470896848,4795.0,13.2206,,,False,strong_candidate,"Strong periodic variability. Possible rotational variable, pulsating star, or eclipsing system."
+173164452,,low_amplitude_variable,0.7,,0.0109072002101229,,,,,,known_variable,Low-confidence variability candidate.
+149969713,,periodic_variable,0.9,,0.1547854104476536,,,,,True,known_variable,"Strong periodic variability. Possible rotational variable, pulsating star, or eclipsing system."
+49503072,possible_new_candidate,periodic_variable,0.9,,0.2956368320712953,6629.0,1.66675,1.39,4.83311939,False,strong_candidate,"Strong periodic variability. Possible rotational variable, pulsating star, or eclipsing system."

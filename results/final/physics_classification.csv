@@ -1,0 +1,11 @@
+tic_id,physics_classification,physics_confidence,reasoning,period_days,amplitude,temperature_K,radius_solar
+380165622,flare_or_transient_candidate,0.85,Transient-like morphology detected,,0.016905093004616,,
+376787680,unknown_variable,0.5,Large photometric variability amplitude,,0.1183522859950925,,
+380668425,unknown_variable,0.5,Large photometric variability amplitude,,0.1838622242967773,,
+325314611,flare_or_transient_candidate,0.85,Transient-like morphology detected,,0.008478997554025,,
+149951723,giant_star_variable_candidate,0.8,Large stellar radius suggests evolved star; Cool stellar temperature,,0.0517838867652918,4269.0,42.9515
+173107765,flare_or_transient_candidate,0.85,Transient-like morphology detected,,0.0071374016552206,,
+397013579,giant_star_variable_candidate,0.8,Large stellar radius suggests evolved star; Large photometric variability amplitude,,0.1534403470896848,4795.0,13.2206
+173164452,unknown_variable,0.5,,,0.0109072002101229,,
+149969713,unknown_variable,0.5,Large photometric variability amplitude,,0.1547854104476536,,
+49503072,unknown_variable,0.5,Large photometric variability amplitude,,0.2956368320712953,6629.0,1.66675

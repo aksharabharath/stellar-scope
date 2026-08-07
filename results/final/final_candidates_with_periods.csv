@@ -1,0 +1,11 @@
+rank,tic_id,refined_classification,confidence,priority,period_days,amplitude,temperature_K,radius_solar,evidence,candidate_score,reason,period_power,period_behavior,period_confidence
+1,397013579,red_giant_variable_candidate,0.72,medium,14.46508530381148,0.1534403470896848,4795.0,13.2206,cool giant stellar parameters; high photometric amplitude,12.44,red giant variable candidate; large evolved-star radius; high variability amplitude,0.3100493816492404,long_period_variable,0.8
+2,149951723,red_giant_variable_candidate,0.5,low,17.447234157658052,0.0517838867652918,4269.0,42.9515,cool giant stellar parameters,11.0,red giant variable candidate; large evolved-star radius,0.6014384463677453,long_period_variable,0.8
+3,49503072,unclassified_variable_candidate,0.5,low,6.787358121154216,0.2956368320712953,6629.0,1.66675,high photometric amplitude,5.0,very high variability amplitude,0.4412334377550881,possible_rotation_or_pulsation,0.7
+4,380668425,unclassified_variable_candidate,0.42,low,12.084159854352722,0.1838622242967773,,,high photometric amplitude,3.84,high variability amplitude,0.5940952831572415,long_period_variable,0.8
+5,149969713,unclassified_variable_candidate,0.42,low,1.0327280204955416,0.1547854104476536,,,high photometric amplitude,3.84,high variability amplitude,0.48797619713167,possible_rotation_or_pulsation,0.7
+6,376787680,unclassified_variable_candidate,0.42,low,0.2002715141065975,0.1183522859950925,,,high photometric amplitude,3.84,high variability amplitude,0.5751343796932321,short_period_variable,0.5
+7,173164452,unclassified_variable_candidate,0.4,low,14.177844369215078,0.0109072002101229,,,,1.8,,0.2253374998939293,long_period_variable,0.8
+8,380165622,transient_or_artifact_candidate,0.4,low,100.0,0.016905093004616,,,transient morphology classification,-2.2,transient or artifact uncertainty,0.0012033327141902,very_long_period_variable,0.6
+9,325314611,transient_or_artifact_candidate,0.4,low,14.44689920067288,0.008478997554025,,,transient morphology classification,-2.2,transient or artifact uncertainty,0.2032786072921808,long_period_variable,0.8
+10,173107765,transient_or_artifact_candidate,0.4,low,14.179438381092847,0.0071374016552206,,,transient morphology classification,-2.2,transient or artifact uncertainty,0.2524126378768566,long_period_variable,0.8
